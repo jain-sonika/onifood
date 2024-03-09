@@ -1,0 +1,68 @@
+.likediv {
+    display: flex;
+    align-items: center;
+    width: 108%;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.view {
+    margin-left: 10rem;
+    font-size: 1.1rem;
+}
+
+.like {
+    margin-inline: 0.5rem;
+    font-size: 1.2rem;
+}
+.like >i{
+    margin-right: 0.3rem;
+}
+.vid-body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 11rem;
+    box-shadow: rgba(0, 0, 0, 0.08) 80px 80px 800px;
+}
+
+.every-vid {
+    margin-top: 5rem;
+}
+
+.likedivvv {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1rem;
+    width: 55%;
+}
+
+.every-vid {
+    width: 20.3rem;
+    margin: 2rem;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+}
+
+.every-vid:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: .2s;
+}
+
+#dp {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.dpBox {
+    margin-block: 1rem;
+    margin-inline: 0.3rem;
+}
+
+.dpAndtitleBox {
+    display: flex;
+}

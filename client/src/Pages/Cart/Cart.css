@@ -1,0 +1,21 @@
+.cart-de{
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 11rem;
+}
+.dont{
+    margin-left: 60rem;
+    font-family: 'Aboreto', cursive;
+}
+#buy-btn{
+    width: 15rem;
+    display: block;
+    margin: 1rem auto;
+    background-color: rgb(54, 161, 54);
+    color: white;
+    margin-left: 60rem;
+}
+#buy-btn:hover{
+    color: antiquewhite;
+    background-color: blue;
+}

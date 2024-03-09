@@ -1,0 +1,46 @@
+.big-div{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 11rem;
+    font-family: 'Aboreto', cursive;
+
+}
+.shop-img{
+    width:76rem;
+    height: 30rem;
+    transition: 0.2s all ease-in-out;
+}
+
+.section{
+    width: max-content;
+    min-width: 20%;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    background-color: transparent;
+    overflow-x: auto;
+    margin-left: 13rem;
+    margin-top: 3rem;
+
+    
+}
+.section h5{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+}
+
+.nchild{
+margin-left: 2rem;
+}
+.shop-img:hover{
+    transform: scale(1.03);
+}
+
+
+.section *>span:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

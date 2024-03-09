@@ -1,0 +1,45 @@
+#addrecipibigbix{
+    background-image: url("../../../public/1412206.jpg");
+    height: 48rem;
+    
+}
+
+
+#recipiBox {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  margin: 5rem auto;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1rem;
+  background-color:rgb(255, 255, 255);
+  /* border: 1px solid black; */
+
+  box-shadow: rgba(0, 0, 0, 2) 80px 80px 800px;
+}
+
+.input12 {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+#recipiBox div>span {
+  font-weight: bold;
+  margin-right: 1rem;
+  color: black;
+}
+
+#title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-inline: 1rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.classname {
+  height: 30rem;
+}

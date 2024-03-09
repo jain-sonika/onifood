@@ -1,0 +1,80 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../../public/1412206.jpg");
+    height: 44.6rem;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: 4cm;
+    background: #f4a424;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #d0dcb6;
+    padding: 2px;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.form_container {
+    margin-top: 60px;
+}
+
+.login_btn {
+    width: 70%;
+    background: #c0392b;
+    color: white;
+
+    border-radius: 7px;
+}
+
+.login_btn:focus {
+    border: 1px solid black;
+    box-shadow: none;
+    outline: 0px;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+
+.input {
+    height: 20px;
+    width: 7cm;
+    margin: 7px;
+
+    border-radius: 7px;
+}
+
+.mt-4 {
+    margin-top: 30px;
+    padding: auto;
+}
+
+#loginBtn:hover{
+    border: 1px solid black;
+}

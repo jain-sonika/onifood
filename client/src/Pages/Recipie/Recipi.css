@@ -1,0 +1,44 @@
+.Vid-div {
+  height:20rem ;
+  width: 20rem;
+  margin: 7rem;
+}
+.vid-body{
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+.tag{
+    margin-left: 11rem;
+    font-family: 'Aboreto', cursive;
+    font-size: 40px;
+    margin-top: 8rem;
+    background-color:rgb(255, 255, 255);
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.08) 80px 80px 800px;
+}
+#addRecipiIcon{
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  background-color: rgb(71, 219, 125);
+  position: sticky;
+  left: 93.5%;
+  bottom: 6rem;
+  cursor: pointer;  
+}
+#msgBox{
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  position: sticky;
+  left: 79%;
+  bottom: 7.9rem;
+  background-color: black;
+  color: white;
+  border-radius:8px;
+}

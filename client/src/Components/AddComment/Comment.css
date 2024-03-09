@@ -1,0 +1,22 @@
+.comment-input{
+    width: 80%;
+    margin-left: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.comment-input-area{
+    height: 3rem;
+    background-color: #FFFFFF;
+    box-shadow: #8f8f8f;
+}
+.add-butn{
+    background-color: #FFFFFF;
+    border: 1px solid blue;
+    
+}
+.add-butn:hover {
+    background-color: rgb(119, 119, 203);
+
+}

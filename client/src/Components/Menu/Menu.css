@@ -1,0 +1,38 @@
+.menu {
+    width: 11rem;
+    height: fit-content;
+    background-color: skyblue;
+    color: black;
+    position: fixed;
+    top: 4.4rem;  
+    /* right: -200px; */
+    z-index: -2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease;
+    box-shadow: #8f8f8f;
+    background-color: #8f8f8f;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.menu ul {
+    
+    margin-block: 2rem;
+    /* width: 60%; */
+    
+}
+
+.menu li {
+    list-style: none;
+    margin-block: 15px;
+}
+
+.menu li:hover{
+    font-weight: bold;
+}

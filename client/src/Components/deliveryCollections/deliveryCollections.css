@@ -1,0 +1,13 @@
+.delivery-collections {
+  background:  #f8f8f8;
+  width: 100%;
+  padding: 40px 0px;
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.collection-title{
+  font-family: 'Aboreto', cursive;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}

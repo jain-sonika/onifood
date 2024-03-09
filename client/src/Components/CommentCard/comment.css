@@ -1,0 +1,35 @@
+.comment-div{
+    box-sizing: 70%;
+    margin-left: 11rem;;
+}
+.comment-user{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.comment-pic{
+    width: 3rem;
+    height:3rem;
+    border-radius:50%;
+}
+.add-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.d{
+    margin-right: 8px;
+    font-family: 'Aboreto', cursive;
+}
+.p{
+    font-family: 'Aboreto', cursive;
+}
+.dle{
+    margin-top: 2px;
+}
+.dle:hover{
+    background-color: red;
+}

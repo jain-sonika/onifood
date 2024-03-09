@@ -1,0 +1,128 @@
+.home {
+  background-color: #040644;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+.home-intro {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  align-items: flex-start;
+  font-size: 50px;
+  background-color: #ffffff;
+  box-shadow: rgba(208, 199, 199, 0.8) 10px 10px 20px;
+  margin-top: 8rem;
+}
+
+.title {
+  font-size: 40px;
+  animation-name: moveRight;
+  animation-duration: 1.2s;
+  color: red;
+  margin-left: 2rem;
+  font-family: "Aboreto", cursive;
+}
+
+.titleTwo {
+  animation-name: moveLeft;
+  animation-duration: 1s;
+  margin-left: 3rem;
+  color: #040644;
+  font-family: "Aboreto", cursive;
+}
+
+.text {
+  font-size: 40px;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-left: 4rem;
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.pic-part {
+  
+  text-align: center;
+  margin-left: 10rem;
+}
+
+.pro-img {
+  
+  height: 12rem;
+  width: 12rem;
+  /* margin-left: 2rem; */
+  border-radius: 50%;
+  /* margin-top: 4rem; */
+}
+
+.tex {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Aboreto", cursive;
+}
+
+
+
+
+
+.ico {
+  color: white;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+.ico>a {
+  color: white;
+  margin: 0.2rem;
+  padding: 3px 6px 3px 6px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+
+.pic-part>div {
+  margin: 3rem;
+  text-align: center;
+}
+
+
+.ico>a:hover {
+  background-color: white;
+  color: black;
+}
+
+.pic-part div >h3{
+  margin-top: 0.4rem;
+}
